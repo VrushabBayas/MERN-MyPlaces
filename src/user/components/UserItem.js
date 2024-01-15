@@ -1,9 +1,9 @@
 import React from "react";
 
 import "./UserItem.css";
-import Avatar from "../../shared/UIElements/Avatar/Avatar/Avatar";
+import Avatar from "../../shared/UIElements/Avatar/Avatar";
 import { Link } from "react-router-dom";
-import Card from "../../shared/UIElements/Avatar/Card/Card";
+import Card from "../../shared/UIElements/Card/Card";
 export default function UserItem({ user }) {
   return (
     <li className="user-item">
