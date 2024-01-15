@@ -9,6 +9,12 @@ const Users = () => {
       image: profile,
       places: 3,
     },
+    {
+      id: "u2",
+      name: "Rashmika",
+      image: profile,
+      places: 2,
+    },
   ];
 
   return <UsersList items={USERS} />;
