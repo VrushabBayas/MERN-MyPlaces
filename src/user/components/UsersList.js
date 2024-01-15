@@ -2,12 +2,15 @@ import React from "react";
 
 import "./UsersList.css";
 import UserItem from "./UserItem";
+import Card from "../../shared/UIElements/Avatar/Card/Card";
 
 export default function UsersList(props) {
   if (!props.items.length) {
     return (
       <div className="center">
-        <h2>No Users Found.</h2>
+        <Card>
+          <h2>No Users Found.</h2>
+        </Card>
       </div>
     );
   }
